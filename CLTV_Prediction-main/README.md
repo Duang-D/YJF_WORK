@@ -1,0 +1,2 @@
+CLTV_Pre_data1.ipynb：基于戴森店铺数据进行用户生命周期相关指标的预测
+CLTV_Prediction.ipynb：对于别人做的一些工作进行学习

@@ -1,0 +1,10 @@
+data_ans_disscount.ipynb：折扣分析
+data_ans_gmv.ipynb：Gmv值于销量分析
+data_ans_re-buy.ipynb：复购情况分析
+data_CNN-LSTM-Attention.ipynb：利用CNN-LSTM-Attention模型进行GMV预测
+data_Prophet-gmv.ipynb：利用Prophet模型进行时间序列预测
+data_logic2.ipynb：利用Lasso模型和ElasticNet模型进行GMV预测
+data_rnn.ipynb：利用RNN模型进行周级别的GMV值预测
+data-ARIMA.ipynb：利用ARIMA进行时间序列模型预测
+Nonlinear_function_fitting.ipynb：函数拟合实验（最小二乘法，梯度下降法）
+rebuy_model.ipynb：复购的一些分析

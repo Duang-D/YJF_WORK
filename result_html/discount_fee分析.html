@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="0bff0c4e8229482dbeec8dbcefea0540" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_0bff0c4e8229482dbeec8dbcefea0540 = echarts.init(
+            document.getElementById('0bff0c4e8229482dbeec8dbcefea0540'), 'white', {renderer: 'canvas'});
+        var option_0bff0c4e8229482dbeec8dbcefea0540 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "GMV\u503c",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2020-01",
+                    14546900.0
+                ],
+                [
+                    "2020-02",
+                    5671300.0
+                ],
+                [
+                    "2020-03",
+                    6633615.0
+                ],
+                [
+                    "2020-04",
+                    3859150.8000000003
+                ],
+                [
+                    "2020-05",
+                    5565870.68
+                ],
+                [
+                    "2020-06",
+                    31290866.18
+                ],
+                [
+                    "2020-07",
+                    12209227.490000002
+                ],
+                [
+                    "2020-08",
+                    14969909.93
+                ],
+                [
+                    "2020-09",
+                    8860538.24
+                ],
+                [
+                    "2020-10",
+                    745839.2199999997
+                ],
+                [
+                    "2020-11",
+                    47609475.339999996
+                ],
+                [
+                    "2020-12",
+                    12551625.0
+                ],
+                [
+                    "2021-01",
+                    12742045.0
+                ],
+                [
+                    "2021-02",
+                    8954700.0
+                ],
+                [
+                    "2021-03",
+                    15944560.0
+                ],
+                [
+                    "2021-04",
+                    6145312.12
+                ],
+                [
+                    "2021-05",
+                    2966945.0
+                ],
+                [
+                    "2021-06",
+                    28961660.849999998
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "GMV\u503c"
+            ],
+            "selected": {
+                "GMV\u503c": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "month",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2020-01",
+                "2020-02",
+                "2020-03",
+                "2020-04",
+                "2020-05",
+                "2020-06",
+                "2020-07",
+                "2020-08",
+                "2020-09",
+                "2020-10",
+                "2020-11",
+                "2020-12",
+                "2021-01",
+                "2021-02",
+                "2021-03",
+                "2021-04",
+                "2021-05",
+                "2021-06"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "discount_fee",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "discount_fee_analyse",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_0bff0c4e8229482dbeec8dbcefea0540.setOption(option_0bff0c4e8229482dbeec8dbcefea0540);
+    </script>
+</body>
+</html>
